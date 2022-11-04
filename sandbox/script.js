@@ -14,8 +14,6 @@ var obj1 = {
     "miss": 123
   };
   
-  
-  
   var obj2 = {
   "foo": {
   "bar": "baz1",
@@ -30,9 +28,6 @@ var obj1 = {
   ],
   "new_value": 1
   };
-  
-  
-  console.log(diff(obj1, obj2));
   
   function diff(obj1, obj2) {
       const result = {};
@@ -54,3 +49,5 @@ var obj1 = {
       });
       return result;
   }
+
+  console.log(diff(obj1, obj2));
